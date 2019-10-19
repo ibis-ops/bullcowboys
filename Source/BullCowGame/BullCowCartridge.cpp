@@ -63,6 +63,7 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
             PrintLine(TEXT("You have lost a life try again."));
             PrintLine(TEXT("You now have %i lives"), LivesNumber);
             //Comment?
+            //coment>
             
             if (LivesNumber == 0)
             {
